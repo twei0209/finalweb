@@ -1,0 +1,232 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+h2 {
+    background-color: rgba(255,174,126,1.00);
+    border-radius: 5px;
+    padding-left: 10px;
+    background-position: 0% 0%;
+    -webkit-box-shadow: 0px 0px 2px;
+    box-shadow: 0px 0px 2px;
+}
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-size: cover;
+    background-image: url(body.jpg);
+}
+.container1 {
+    height: 800px;
+    background-image: url(earth%20map.png);
+    background-size: cover;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: #FFFFFF;
+    width: auto;
+    border-radius: 10px;
+}
+
+.china {
+  width: 100px;
+  height: 10px;
+}
+.UK {
+    width: 100px;
+    height: 10px;
+    right: 90px;
+    margin-left: 75px;
+    margin-top: -7px;
+}
+.Ukraine {
+    width: 100px;
+    height: 10px;
+    margin-left: 150px;
+    margin-top: -11px;
+}
+.Korea {
+    width: 100px;
+    height: 10px;
+    margin-left: 245px;
+    margin-top: -11px;
+}
+.France {
+    width: 100px;
+    height: 10px;
+    margin-left: 320px;
+    margin-top: -10px;
+}
+.Afrika {
+    width: 100px;
+    height: 10px;
+    margin-left: 395px;
+    margin-top: -10px;
+}
+header {
+    text-shadow: 0px 0px;
+    font-size: large;
+    height: 59px;
+    text-align: center;
+    background-color: rgba(248,135,33,1.00);
+    color: rgba(255,255,255,1.00);
+    -webkit-box-shadow: inset 2px 2px 60px 15px rgba(89,38,11,1.00);
+    box-shadow: inset 2px 2px 60px 15px rgba(89,38,11,1.00);
+}
+.container2 {
+  background-color: rgba(255, 250, 214, 0.90);
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+footer {
+    height: 100px;
+    background-image: url(kisspng-water-stock-photography-drop-clip-art-blue-water-column-element-skin-fantasy-spray-5a70332013c482.052973841517302560081.png);
+    background-size: contain;
+    background-position: 0% 80%;
+
+}
+
+.container1 a:hover {
+  background-color: rgba(255, 253, 0, 1.00);
+}
+.container4 {
+  display: flex;
+  justify-content: space-envely;
+}
+.box2 {
+    width: 450px;
+    background-image: url(china.jpg);
+    background-size: 95% 100%;
+    margin-left: 75px;
+    border-radius: 50px;
+    flex: 1;
+    height: 350px;
+    margin-right: 25px;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.box1 {
+    flex: 1;
+    -webkit-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    border-radius: 50px;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.box3 {
+  background-image: url(War.png);
+  width: 50%;
+  background-size: cover;
+  margin-left: 75px;
+  border-radius: 50px;
+  flex: 1;
+  margin-right: 25px;
+-webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.box4 {
+    background-image: url(France.jpg);
+    flex: 1;
+    margin-left: 75px;
+    height: 350px;
+    background-position: 50% 30%;
+    border-radius: 50px;
+    margin-right: 25px;
+	-webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.container5 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.box5 {
+    flex: 1;
+    -webkit-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+.box6 {
+    flex: 1;
+    background-image: url(queen.jpg);
+    height: 350px;
+    border-radius: 50px;
+    background-size: cover;
+    margin-right: 75px;
+    background-position: 0% 12%;
+	-webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.container3 {
+    width: 100%;
+
+}
+
+.box7 {
+    flex: 1;
+    background-image: url(korea3.jpg);
+    background-size: cover;
+    height: 350px;
+    border-radius: 50px;
+    margin-right: 75px;
+	-webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.box8 {
+    flex: 1;
+    background-image: url(monkeypox.jpg);
+    border-radius: 50px;
+    margin-right: 75px;
+    background-size: cover;
+    height: 450px;
+	-webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.box1:hover {
+    color: rgba(0,0,0,1);
+    background-color: rgba(255,213,213,1);
+}
+.box5:hover {
+    color: rgba(0,0,0,1);
+    background-color: rgba(209,255,241,1);
+}
+.box2:hover {
+   transform:rotate(2deg);
+}
+.box3:hover {
+   transform:rotate(2deg);
+}
+.box4:hover {
+   transform:rotate(2deg);
+}
+.box6:hover {
+   transform:rotate(2deg);
+}
+.box7:hover {
+   transform:rotate(2deg);
+}
+.box8:hover {
+   transform:rotate(2deg);
+}
+section {
+    text-align: center;
+    font-size: xx-large;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.container3 footer .material-icons {
+    margin-top: 15px;
+}
